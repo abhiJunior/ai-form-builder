@@ -6,7 +6,7 @@ import { useClerk,UserButton,useUser } from "@clerk/clerk-react";
 import { useEffect } from "react";
 
 function NavBar() {
-  const url = "http://localhost:5000"
+  const url = "https://ai-form-builder-backend-liwf.onrender.com"
     const fetchUser = async()=>{
       try{
         const response = await fetch(`${url}/api/user/`,{
