@@ -4,7 +4,7 @@ import { Share, Copy, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 function Dashboard() {
-  const url = "http://localhost:5000"
+  const url = "https://ai-form-builder-backend-liwf.onrender.com"
   const [forms, setForms] = useState([]);
   const [loading, setLoading] = useState(true);
   const [shareModal, setShareModal] = useState({ open: false, link: '' });
