@@ -4,7 +4,7 @@ import * as XLSX from "xlsx";
 import { saveAs } from "file-saver";
 
 function Responses() {
-  const url = "http://localhost:5000"
+  const url = "https://ai-form-builder-backend-liwf.onrender.com"
   const [forms, setForms] = useState([]);
   const [loading, setLoading] = useState(true);
 
