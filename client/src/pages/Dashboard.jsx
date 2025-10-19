@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import CreateFormModel from '../components/createformModel';
+import CreateFormModel from '../components/CreateFormModel';
 import { Share, Copy, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
