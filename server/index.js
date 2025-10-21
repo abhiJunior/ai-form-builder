@@ -37,8 +37,8 @@ app.use("/api/submission", submissionRouter)
 app.get("*", (req, res) => {
   res.send("server not found")
 })
-
-app.listen(5000, async () => {
+const port = process.env || 5000
+app.listen(port, async () => {
   await connectToDB()
-  console.log("Server running at http://localhost:5000")
+  console.log(`Server running at http://localhost:${port}`)
 })
