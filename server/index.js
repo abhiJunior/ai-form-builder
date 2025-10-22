@@ -11,7 +11,7 @@ dotenv.config()
 
 const app = express()
 
-app.use(clerkMiddleware())
+
 
 const corsOptions = {
   origin: [
@@ -24,7 +24,10 @@ const corsOptions = {
 }
 
 app.use(cors(corsOptions))
+
 app.options('*', cors(corsOptions))
+
+app.use(clerkMiddleware())
 
 app.use(express.json())
 
