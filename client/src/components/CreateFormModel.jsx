@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const { TextArea } = Input;
 
 const CreateFormModel = () => {
-  const url = "https://ai-form-builder-backend-liwf.onrender.com"
+  const url = "https://ai-form-builder-backend-ytpx.onrender.com"
   const navigate = useNavigate()
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [userInput, setUserInput] = useState('');
