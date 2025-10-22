@@ -7,7 +7,7 @@ const CLOUDINARY_CLOUD_NAME = import.meta.env.VITE_CLOUDINARY_CLOUD_NAME;
 const CLOUDINARY_PRESET = import.meta.env.VITE_CLOUDINARY_PRESET;
 
 function CreateForm() {
-  const url = "https://ai-form-builder-backend-liwf.onrender.com"
+  const url = "https://ai-form-builder-backend-ytpx.onrender.com"
   const navigate = useNavigate();
   const { id: formId } = useParams();
   const [formData, setFormData] = useState(null);
